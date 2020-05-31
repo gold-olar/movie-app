@@ -1,0 +1,27 @@
+.search {
+  width: 80%;
+  margin: auto;
+}
+.search-btn {
+  background-color: #dd0000 !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  opacity: 0.8;
+  border: 1px solid transparent !important;
+}
+.search-btn:hover {
+  background-color: !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  opacity: 0.8;
+  border: 1px solid #ccc !important;
+}
+input {
+  background-color: -internal-light-dark-color(
+    rgb(255, 255, 255),
+    rgb(59, 59, 59)
+  );
+  border: 1px solid #ccc !important;
+  color: #ccc;
+  font-weight: 400;
+}

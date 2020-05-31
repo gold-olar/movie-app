@@ -1,0 +1,21 @@
+.menu-card {
+  background: none !important;
+}
+.btn-primary {
+  background-color: transparent !important;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  opacity: 0.8;
+  border: 1px solid #ccc !important;
+}
+.btn-primary:hover {
+  background-color: #db0000 !important;
+  border: 1px solid transparent !important;
+}
+.menu-card-title {
+  font-size: 160%;
+}
+.menu-card-body{
+    opacity: 0.5;
+    font-weight: 300 !important;
+}

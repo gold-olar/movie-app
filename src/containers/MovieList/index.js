@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import MovieCard from "../../components/MovieCard";
 import Search from "../../components/SearchMovies";
 import { useMoviesData } from "../../util/ops/useMoviesData";
-// import { toast } from "react-toastify";
 import Loader from "../../components/Loader";
 import NotFound from "../../components/NotFound";
 import { ERR0R_FETCHING } from "../../util/constants";

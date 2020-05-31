@@ -49,7 +49,7 @@ export const useMoviesData = () => {
   useEffect(() => {
     if (!data) {
       fetchMovies().then((response) => {
-        console.log(response);
+        // console.log(response);
         setData(response);
       });
     }

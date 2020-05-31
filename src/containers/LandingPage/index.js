@@ -10,7 +10,14 @@ const LandingPage = () => {
       <Row>
         {menuItems.map((item) => {
           const { type, description, path } = item;
-          return <MenuCard type={type} description={description} path={path} />;
+          return (
+            <MenuCard
+              key={type}
+              type={type}
+              description={description}
+              path={path}
+            />
+          );
         })}
       </Row>
       <Row className="mt-5">

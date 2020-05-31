@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
 } from "reactstrap";
@@ -18,16 +17,14 @@ const NavigationBar = (props) => {
   return (
     <div>
       <Navbar color="transparent" dark expand="md">
-        <NavbarBrand>
+        {" "}
+        <NavLink className="nav-brand logo-link" to="/">
           {" "}
-          <NavLink className="logo-link" to="/">
+          <span className="logo">
             {" "}
-            <span className="logo">
-              {" "}
-              Movie<span className="logo-red">App</span>{" "}
-            </span>{" "}
-          </NavLink>{" "}
-        </NavbarBrand>
+            Movie<span className="logo-red">App</span>{" "}
+          </span>{" "}
+        </NavLink>{" "}
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

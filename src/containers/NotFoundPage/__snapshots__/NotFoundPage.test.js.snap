@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="mt-5 container-fluid"
+>
+  <div
+    className="mb-5 justify-content-center row"
+  >
+    <div
+      className="text-center col-md-6"
+    >
+      <h3
+        className="appology-msg mb-3"
+      >
+        We are sorry, the page you are looking for does not exist
+      </h3>
+      <img
+        alt="page not found"
+        className="img-fluid mt-3 mb-3"
+        src="not_found.svg"
+      />
+      <h3
+        className="not-found-text mt-3 mb-5"
+      >
+         Not Found 
+      </h3>
+      <button
+        className="btn-primary btn mr-3"
+        onClick={[Function]}
+      >
+        Go Back
+      </button>
+      <a
+        className="secondary-option"
+        href="/"
+        onClick={[Function]}
+      >
+        Go Home
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -33,7 +33,7 @@ const MovieList = ({ type }) => {
         setMovies(sortedList)
       );
   }, [data, type]);
-  console.log(movies);
+
   return (
     <>
       {loading && (

@@ -1,4 +1,4 @@
-# Movie app with Create React App, React
+# Movie app with Create React App.
 
 Try the demo at https://rr-movie-app.herokuapp.com.
 

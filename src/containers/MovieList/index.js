@@ -38,7 +38,7 @@ const MovieList = ({ type }) => {
       type,
       data.movies
     );
-    console.log(searchResults);
+
     setSearchResults(searchResults);
   };
 
@@ -109,7 +109,7 @@ const MovieList = ({ type }) => {
             <>
               <span
                 onClick={() => setSearchResults()}
-                className="d-block btn text-white mb-3 text-left"
+                className="d-block btn text-red mb-3 text-left"
               >
                 {" "}
                 <br /> Clear Search{" "}

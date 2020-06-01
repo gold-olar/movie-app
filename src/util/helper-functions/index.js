@@ -9,19 +9,18 @@ function compare(a, b) {
 }
 
 export async function getPageMoviesData(type, moviesData) {
-  let data = [];
   if (moviesData) {
     const dataType = await moviesData.filter(
       (data) => data.programType === type.toLowerCase()
     );
-    console.log(dataType, type)
+    // console.log(dataType, type);
 
     const recentData = await dataType.filter(
       (data) => data.releaseYear >= 2010
     );
 
-    data = [...recentData.sort(compare).slice(0, 21)];
+    return [...recentData.sort(compare).slice(0, 21)];
   }
 
-  return data;
+  return [];
 }

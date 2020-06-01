@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+Array [
+  <div
+    className="col-sm-6"
+  >
+    <div
+      className="menu-card card card-body"
+    >
+      <div
+        className="menu-card-title card-title"
+      >
+        series
+      </div>
+      <p
+        className="menu-card-body card-text"
+      >
+        any string
+      </p>
+      <a
+        className="btn btn-primary"
+        href="/path"
+        onClick={[Function]}
+      >
+        Browse 
+        series
+      </a>
+    </div>
+  </div>,
+  " ",
+]
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="col-md-4"
+>
+  <div
+    className="movie-card card"
+  >
+    <img
+      alt="Title"
+      className="movie-img card-img-top"
+      src="url to image"
+      width="100%"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title"
+      >
+         
+        Title
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,6 +1,6 @@
 # Movie app with Create React App, React
 
-Try the demo at https://link-to-app.com.
+Try the demo at https://rr-movie-app.herokuapp.com.
 
 ## Stack
 

@@ -3,7 +3,6 @@ import { unmountComponentAtNode } from "react-dom";
 import ReactDOM from "react-dom";
 import MovieList from "./index";
 import renderer from "react-test-renderer";
-import { BrowserRouter } from "react-router-dom";
 import { SERIES } from "../../util/constants";
 
 let container = null;
@@ -19,11 +18,7 @@ afterEach(() => {
   container.remove();
   container = null;
 });
-const testComponent = (
-  <BrowserRouter>
-    <MovieList type={SERIES} />
-  </BrowserRouter>
-);
+const testComponent = <MovieList type={SERIES} />;
 
 test("renders without crashing", () => {
   const div = document.createElement("div");

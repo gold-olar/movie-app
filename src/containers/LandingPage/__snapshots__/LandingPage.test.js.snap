@@ -62,52 +62,5 @@ exports[`should match snapshot 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="mt-5 row"
-  >
-    <div
-      className="text-center mt-5 col-md-12"
-    >
-      <h4>
-        Unlimited movies, TV shows, and more.
-      </h4>
-    </div>
-    <div
-      className="text-center p-4 search  col"
-    >
-      <form
-        className=""
-      >
-        <div
-          className="row form-group"
-        >
-          <div
-            className="m-auto col-sm-10"
-          >
-            <input
-              className="form-control-lg form-control"
-              name="searchTerm"
-              type="search"
-            />
-          </div>
-        </div>
-        <div
-          className="row"
-        >
-          <div
-            className="text-center col"
-          >
-            <button
-              aria-label={null}
-              className="search-btn btn btn-secondary"
-              onClick={[Function]}
-            >
-              Search
-            </button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
 </div>
 `;

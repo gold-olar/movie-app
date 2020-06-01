@@ -2,10 +2,11 @@
 
 exports[`should match snapshot 1`] = `
 <div
-  className="text-center p-4 search  col"
+  className="text-center p-4 search col"
 >
   <form
     className=""
+    onSubmit={[Function]}
   >
     <div
       className="row form-group"
@@ -15,7 +16,7 @@ exports[`should match snapshot 1`] = `
       >
         <input
           className="form-control-lg form-control"
-          name="searchTerm"
+          name="searchParam"
           type="search"
         />
       </div>

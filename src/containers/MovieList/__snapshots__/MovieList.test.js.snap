@@ -11,14 +11,15 @@ exports[`should match snapshot 1`] = `
       className="text-center mt-5 col-md-12"
     >
       <h4>
-        Unlimited movies, TV shows, and more.
+        Search for movies, TV shows, and more.
       </h4>
     </div>
     <div
-      className="text-center p-4 search  col"
+      className="text-center p-4 search col"
     >
       <form
         className=""
+        onSubmit={[Function]}
       >
         <div
           className="row form-group"
@@ -28,7 +29,7 @@ exports[`should match snapshot 1`] = `
           >
             <input
               className="form-control-lg form-control"
-              name="searchTerm"
+              name="searchParam"
               type="search"
             />
           </div>

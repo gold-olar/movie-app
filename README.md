@@ -2,7 +2,7 @@
 
 Try the demo at https://rr-movie-app.herokuapp.com.
 
-## Stack
+## Technologies
 
 - Create React App
 - Express

@@ -17,9 +17,25 @@ exports[`should match snapshot 1`] = `
       </h3>
       <img
         alt="page not found"
-        className="img-fluid mt-3 mb-3"
-        src="not_found.svg"
+        className="img-fluid mt-3 mb-3 no-js-not_found"
+        crossOrigin={null}
+        sizes={null}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+        srcSet={null}
       />
+      <noscript>
+        <style>
+          .no-js-not_found { display: none !important; }
+        </style>
+        <img
+          alt="page not found"
+          className="img-fluid mt-3 mb-3"
+          crossOrigin={null}
+          sizes={null}
+          src="not_found.svg"
+          srcSet={null}
+        />
+      </noscript>
       <h3
         className="not-found-text mt-3 mb-5"
       >

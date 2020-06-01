@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Img from "react-cool-img";
 import img_404 from "../../assets/img/not_found.svg";
 import empty from "../../assets/img/empty.svg";
 import error from "../../assets/img/error.svg";
@@ -7,6 +8,10 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import getItemToRender from "./helper";
 import "./styles.scss";
+(async () => {
+  if (!("IntersectionObserver" in window))
+    await import("intersection-observer");
+})();
 
 const NotFound = ({ history, type, message }) => {
   const item = getItemToRender(type);
@@ -24,7 +29,7 @@ const NotFound = ({ history, type, message }) => {
               )}
               {item === "error" && message}
             </h3>
-            <img
+            <Img
               src={item === "page" ? img_404 : item === "error" ? error : empty}
               alt="page not found"
               className="img-fluid mt-3 mb-3"

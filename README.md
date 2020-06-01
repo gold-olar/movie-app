@@ -5,6 +5,8 @@ Try the demo at https://link-to-app.com.
 ## Stack
 
 - Create React App
+- Express
+- Morgan
 - React Hooks
 - Jest
 - React Router

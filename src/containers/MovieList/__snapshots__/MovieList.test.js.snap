@@ -68,9 +68,25 @@ exports[`should match snapshot 1`] = `
           />
           <img
             alt="page not found"
-            className="img-fluid mt-3 mb-3"
-            src="error.svg"
+            className="img-fluid mt-3 mb-3 no-js-error"
+            crossOrigin={null}
+            sizes={null}
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            srcSet={null}
           />
+          <noscript>
+            <style>
+              .no-js-error { display: none !important; }
+            </style>
+            <img
+              alt="page not found"
+              className="img-fluid mt-3 mb-3"
+              crossOrigin={null}
+              sizes={null}
+              src="error.svg"
+              srcSet={null}
+            />
+          </noscript>
         </div>
       </div>
     </div>

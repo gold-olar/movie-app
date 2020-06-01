@@ -13,6 +13,7 @@ Try the demo at https://rr-movie-app.herokuapp.com.
 - Node Sass 
 - Reactstrap 
 - Bootstrap 
+- Heroku
 
 
 ## Answers to questions in the Document
@@ -30,6 +31,8 @@ Try the demo at https://rr-movie-app.herokuapp.com.
     I made use of bootstrap and reactstrap to ensure the app is very responsive accross all devices.
 
     I used Jest for writing unit tests.
+
+    I made it a Progressive Web App.
 
 
 

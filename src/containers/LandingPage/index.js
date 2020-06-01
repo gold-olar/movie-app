@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import MenuCard from "../../components/MenuCard";
 import menuItems from "./helper";
-import Search from "../../components/SearchMovies";
+// import Search from "../../components/SearchMovies";
 
 const LandingPage = () => {
   return (
@@ -19,12 +19,6 @@ const LandingPage = () => {
             />
           );
         })}
-      </Row>
-      <Row className="mt-5">
-        <Col md={12} className="text-center mt-5">
-          <h4>Unlimited movies, TV shows, and more.</h4>
-        </Col>
-        <Search />
       </Row>
     </Container>
   );

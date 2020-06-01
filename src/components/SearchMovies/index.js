@@ -1,15 +1,31 @@
 import React from "react";
-import { Col, Form, FormGroup, Button, Input, Row } from "reactstrap";
-import './styles.scss';
+import PropTypes from "prop-types";
+import { Col, Form, FormGroup, Button, Row } from "reactstrap";
+import { useForm } from "react-hook-form";
 
-const Search = () => {
+import "./styles.scss";
+
+const Search = ({ searchMovie }) => {
+  const { register, handleSubmit, errors } = useForm();
+  const onSubmit = (data) => searchMovie(data.searchParam);
+
   return (
     <>
-      <Col className="text-center p-4 search ">
-        <Form>
+      <Col className="text-center p-4 search">
+        <Form onSubmit={handleSubmit(onSubmit)}>
           <FormGroup row>
             <Col className="m-auto" sm={10}>
-              <Input className="" type="search" name="searchTerm" bsSize="lg" />
+              {errors.searchParam && (
+                <small className="text-danger sm mb-1">
+                  Enter a movie title.
+                </small>
+              )}
+              <input
+                name="searchParam"
+                ref={register({ required: true })}
+                className="form-control-lg form-control"
+                type="search"
+              />
             </Col>
           </FormGroup>
           <Row>
@@ -21,6 +37,10 @@ const Search = () => {
       </Col>
     </>
   );
+};
+
+Search.propType = {
+  searchMovie: PropTypes.func.isRequired,
 };
 
 export default Search;

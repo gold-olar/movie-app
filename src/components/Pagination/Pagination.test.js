@@ -25,6 +25,7 @@ test("renders without crashing", () => {
   ReactDOM.render(testComponent, div);
 });
 
+
 test("should match snapshot", () => {
   const component = renderer.create(testComponent);
   let tree = component.toJSON();
